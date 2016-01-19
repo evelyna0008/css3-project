@@ -26,6 +26,7 @@ p{
     border-color:#d580ff;
     border-width: thick;
     display: inline;
+    clear: left;
 }
 
 img {
