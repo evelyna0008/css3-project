@@ -21,7 +21,10 @@ h2:hover{
     transform: rotate(180deg);
 }
 p{
-    border-style:solid;
+    border-style: groove;
+    border-color:#
+    border-width: thick;
+    display: inline;
 }
 
 
