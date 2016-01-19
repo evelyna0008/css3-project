@@ -6,7 +6,7 @@ body {
 
 h2{
     font-size: 60px;
-    float:left;
+    text-align:center;
     font-family: Palatino Linotype;
     color:white;
     text-shadow: 4px 4px #000000;
@@ -25,12 +25,16 @@ p{
     border-style: groove;
     border-color:#d580ff;
     border-width: thick;
-    display: inline;
+    display:inline;
+    
+    
+    
 }
 
 img {
     position:absolute;
-    margin: 200px 10px 50px 2px;
+    margin-top: 200px;
+    
     
 }
 
