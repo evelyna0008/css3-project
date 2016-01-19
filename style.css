@@ -28,6 +28,9 @@ p{
     display: inline;
 }
 
-
-
+img {
+    position:absolute;
+    margin: 200px 10px 50px 2px;
+    
+}
 
