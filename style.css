@@ -29,34 +29,35 @@ p{
 }
 
 #circle {
-    background-color:#c06;
-    height:50px;
-    width:50px;
+    background-color:#66ccff;
+    height:70px;
+    width:70px;
     box-shadow: 1px 2px #000;
     border-radius:60px;
     position:absolute;
     margin-top:50px;
     margin-left:270px;
+    transition: background-color 1s;
 }
 #lefteye {
     position:absolute;
     background-color:#ffffff;
     height:35px;
-    width:30px;
-    box-shadow: 1px 2px #000;
+    width:31px;
+   box-shadow: 1px 1px #000;
     border-radius:60px;
-    margin-top:14px;
-    margin-left:10px;
+    margin-top:12px;
+    margin-left:4px;
 }
 #righteye {
     position:absolute;
     background-color:#ffffff;
     height:35px;
-    width:30px;
-    box-shadow: 1px 2px #000;
+    width:31px;
+    box-shadow: 1px 1px #000;
     border-radius:60px;
-    margin-top:14px;
-    margin-left:40px;
+    margin-top:12px;
+    margin-left:35px;
 }
 #pupil1 {
     position:absolute;
@@ -64,8 +65,8 @@ p{
     height:20px;
     width:20px;
     border-radius:60px;
-    margin-top:20px;
-    margin-left:15px;
+    margin-top:23px;
+    margin-left:5px;
 }
 #pupil2 {
     position:absolute;
@@ -73,7 +74,7 @@ p{
     height:20px;
     width:20px;
     border-radius:60px;
-    margin-top:20px;
+    margin-top:16px;
     margin-left:45px;
 }
 #mouth {
@@ -114,8 +115,11 @@ p{
 .smiley {
      animation: jump 2s infinite;
      position:relative;
+     
    
-   
+}
+#circle:hover {
+  background-color:green;
 }
 
 
