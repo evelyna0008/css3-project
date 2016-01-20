@@ -16,6 +16,9 @@ h2{
     transition: transform 2s;
    
 }
+div{
+    
+}
 p{
     border-style: groove;
     border-color:#d580ff;
@@ -103,6 +106,7 @@ p{
    transition: transform 2s;
    border:20px solid transparent;
    border-image: url(clouds.png) 30;
+   
    
 }
 
