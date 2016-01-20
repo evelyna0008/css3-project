@@ -96,11 +96,14 @@ p{
 
 .pic {
    display:inline-block; 
-   margin-right:25px;
-   margin-top:300px;
+   margin-right:5px;
+   margin-top:40px;
    clear:both;
    box-shadow: 2px .5px #000;
    transition: transform 2s;
+   border:20px solid transparent;
+   border-image: url(clouds.png) 30;
+   
 }
 
 .pic:hover {
