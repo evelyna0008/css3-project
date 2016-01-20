@@ -78,9 +78,10 @@ p{
 }
 #mouth {
        position:absolute;
+        border-radius:60px;
     background-color:#000;
-    height:5px;
-    width:20px;
+    height:10px;
+    width:10px;
     margin-top:55px;
     margin-left:32px;
 }
@@ -94,20 +95,27 @@ p{
 
 .pic {
    display:inline-block; 
-   margin-right:12px;
-   margin-top:60px;
+   margin-right:27px;
+   margin-top:95px;
    clear:both;
    box-shadow: 2px .5px #000;
-  animation: move 5s infinite;
-     position:relative;
+   transition: transform 2s;
 }
 
+.pic:hover {
+   
+    transform: rotate(360deg);
+   
+
+}
 .smiley {
      animation: jump 2s infinite;
      position:relative;
+   
+   
 }
 
-  
+
 @keyframes jump {
     0%   {left:0px; top:0px;}
     50%  {left:0px; top:50px;}
@@ -115,11 +123,6 @@ p{
 }
    
 
-@keyframes move {
-    0%   {left:0px; top:0px;}
-    50%  {left:0px; top:100px;}
-    100% {left:0px; top:0px;}
-}
 
 h2:hover{
     transform: rotate(180deg);
