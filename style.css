@@ -3,38 +3,127 @@ body {
     background-size:cover;
     
 }
+background {
+    height:100%;
+}
 
 h2{
     font-size: 60px;
-    text-align:center;
+    float:left;
     font-family: Palatino Linotype;
     color:white;
     text-shadow: 4px 4px #000000;
     transition: transform 2s;
    
 }
+p{
+    border-style: groove;
+    border-color:#d580ff;
+    border-width: thick;
+    display: inline;
+}
+
+#pointless {
+    margin-top:0px;
+    position:absolute;  
+}
+
+#circle {
+    background-color:#c06;
+    height:80px;
+    width:80px;
+    box-shadow: 1px 2px #000;
+    border-radius:60px;
+    position:absolute;
+    margin-top:50px;
+    margin-left:270px;
+}
+#lefteye {
+    position:absolute;
+    background-color:#ffffff;
+    height:35px;
+    width:30px;
+    box-shadow: 1px 2px #000;
+    border-radius:60px;
+    margin-top:14px;
+    margin-left:10px;
+}
+#righteye {
+    position:absolute;
+    background-color:#ffffff;
+    height:35px;
+    width:30px;
+    box-shadow: 1px 2px #000;
+    border-radius:60px;
+    margin-top:14px;
+    margin-left:40px;
+}
+#pupil1 {
+    position:absolute;
+    background-color:#000;
+    height:20px;
+    width:20px;
+    border-radius:60px;
+    margin-top:20px;
+    margin-left:15px;
+}
+#pupil2 {
+    position:absolute;
+    background-color:#000;
+    height:20px;
+    width:20px;
+    border-radius:60px;
+    margin-top:20px;
+    margin-left:45px;
+}
+#mouth {
+       position:absolute;
+    background-color:#000;
+    height:5px;
+    width:20px;
+    margin-top:55px;
+    margin-left:32px;
+}
+
+
 
 .images {
-     animation:FADE-IN 2s 1;
+   float:left; 
+  
+}
+
+.pic {
+   display:inline-block; 
+   margin-right:12px;
+   margin-top:60px;
+   clear:both;
+   box-shadow: 2px .5px #000;
+  animation: move 5s infinite;
+     position:relative;
+}
+
+.smiley {
+     animation: jump 2s infinite;
+     position:relative;
+}
+
+  
+@keyframes jump {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+}
+   
+
+@keyframes move {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
 }
 
 h2:hover{
     transform: rotate(180deg);
 }
-p{
-    border-style: groove;
-    border-color:#d580ff;
-    border-width: thick;
-    display:inline;
-    
-    
-    
-}
 
-img {
-    position:absolute;
-    margin-top: 200px;
-    
-    
-}
+
 
