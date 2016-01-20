@@ -32,7 +32,7 @@ p{
 }
 
 #circle {
-    background-color:#66ccff;
+    background-color:#66a3ff;
     height:70px;
     width:70px;
     box-shadow: 1px 2px #000;
@@ -123,7 +123,7 @@ p{
    
 }
 #circle:hover {
-  background-color:green;
+  background-color:;
 }
 
 
