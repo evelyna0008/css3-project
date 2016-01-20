@@ -95,8 +95,8 @@ p{
 
 .pic {
    display:inline-block; 
-   margin-right:27px;
-   margin-top:95px;
+   margin-right:25px;
+   margin-top:300px;
    clear:both;
    box-shadow: 2px .5px #000;
    transition: transform 2s;
