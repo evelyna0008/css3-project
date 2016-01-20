@@ -24,14 +24,14 @@ p{
 }
 
 #pointless {
-    margin-top:0px;
+    margin-top:150px;
     position:absolute;  
 }
 
 #circle {
     background-color:#c06;
-    height:80px;
-    width:80px;
+    height:50px;
+    width:50px;
     box-shadow: 1px 2px #000;
     border-radius:60px;
     position:absolute;
