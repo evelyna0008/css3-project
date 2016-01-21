@@ -10,17 +10,17 @@ h2{
     font-family: Palatino Linotype;
     color:white;
     text-shadow: 4px 4px #000000; /*creates black shadow on the title */
-    transition: transform 2s; 
+    transition: transform 2s; /*transform connects to the hover which causes it to rotate 360 deg in 2 seconds*/
    
 }
 
 p{
-    margin-left:350px;
+    margin-left:350px; /*moves the text away from the left margin towards the center*/
     font-size: 50px;
-    border-style: groove;
+    border-style: groove; /*gives the border a 3D effect*/
     border-color:#d580ff;
     border-width: 10px 10px 10px 10px;
-    display:inline;
+    display:inline; /*keeps the text inside the border of p tag*/
     font-family: Palatino Linotype;
     
     
@@ -32,16 +32,16 @@ p{
     background-color:#66a3ff;
     height:70px;
     width:70px;
-    box-shadow: 1px 2px #000;
-    border-radius:60px;
+    box-shadow: 1px 2px #000;/*gives the circle of the face a black shadow*/
+    border-radius:60px; /*makes the face a circle*/
     position:absolute;
-    margin-top:50px;
-    margin-left:270px;
-    transition: background-color 1s;
+    margin-top:50px;  /*moves the face 50px away from the top of the page*/
+    margin-left:270px; /*moves the face away from the left margin 270px*/
+    transition: background-color 1s; /*connects to the hover css down below and changes the color of the face in 1 second*/
 }
 #lefteye {
-    position:absolute;
-    background-color:#ffffff;
+    position:absolute; /*positions the circle in relation to the page/document and takes it out of static flow*/
+    background-color:#ffffff; 
     height:35px;
     width:31px;
     box-shadow: 1px 1px #000;
@@ -78,8 +78,8 @@ p{
     margin-left:45px;
 }
 #mouth {
-       position:absolute;
-        border-radius:60px;
+    position:absolute;
+    border-radius:60px;
     background-color:#000;
     height:10px;
     width:10px;
@@ -90,48 +90,48 @@ p{
 
 
 .images {
-   float:left; 
+   float:left; /*makes the pictures closer to the left side of the page*/
   
 }
 
 .pic {
-   display:inline-block; 
+   display:inline-block; /*keeps the pictures aligned/next to each other and if there is no more room on the page it moves it so that it fits in the browser*/
    margin-right:5px;
    margin-top:40px;
-   clear:both;
+   clear:both; /*moves it under the title, text, and face on the left or right/ moves it underneath everything*/
    box-shadow: 2px .5px #000;
    transition: transform 2s;
    border:15px solid ;
-   border-image: url(clouds.png) 30;
+   border-image: url(clouds.png) 30; /* gives the image a border with an image of clouds. the 30 is the size of the picture presented in the border*/
    
 }
 
 .pic:hover {
    
-    transform: rotate(360deg);
+    transform: rotate(360deg); /*rotates the images when mouse hovers over it*/
    
 
 }
 .smiley {
-     animation: jump 2s infinite;  
+     animation: jump 2s infinite;  /*makes the face jump in 2s forever*/
      position: absolute;
      
 }
 #circle:hover {
-  background-color:#ff6666;
+  background-color:#ff6666; /*changes the color of the face when the mouse hovers over it*/
 }
 
 
 @keyframes jump {
-    0%   {left:0px; top:0px;}
-    50%  {left:0px; top:50px;}
-    100% {left:0px; top:0px;}
+    0%   {left:0px; top:0px;} /*starts in original position*/
+    50%  {left:0px; top:50px;} /*moves the image down 50px*/
+    100% {left:0px; top:0px;} /*moves it back to original position*/
 }
    
 
 
 h2:hover{
-    transform:rotate(180deg);
+    transform:rotate(180deg); /*rotates title 180 deg when mouse hovers over it*/
 }
 
 
