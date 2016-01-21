@@ -9,7 +9,7 @@ background {
 
 h2{
     font-size: 80px;
-    padding-left:700px;
+    text-align:center;
     font-family: Palatino Linotype;
     color:white;
     text-shadow: 4px 4px #000000;
@@ -23,6 +23,7 @@ p{
     border-color:#d580ff;
     border-width: 10px 10px 10px 10px;
     display:inline;
+    font-family: Palatino Linotype;
     
 }
 
