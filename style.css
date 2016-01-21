@@ -117,10 +117,9 @@ p{
      animation: jump 2s infinite;  
      position: absolute;
      
-   
 }
 #circle:hover {
-  background-color:green;
+  background-color:#ff6666;
 }
 
 
