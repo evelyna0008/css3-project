@@ -22,6 +22,7 @@ p{
     border-color:#d580ff;
     border-width: thick;
     display: inline;
+    
 }
 
 #pointless {
@@ -102,7 +103,7 @@ p{
    clear:both;
    box-shadow: 2px .5px #000;
    transition: transform 2s;
-   border:20px solid transparent;
+   border:15px solid ;
    border-image: url(clouds.png) 30;
 }
 
@@ -113,13 +114,13 @@ p{
 
 }
 .smiley {
-     animation: jump 2s infinite;
-     position:relative;
+     animation: jump 2s infinite;  
+     position: relative;
      
    
 }
 #circle:hover {
-  background-color:;
+  background-color:green;
 }
 
 
