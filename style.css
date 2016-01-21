@@ -8,27 +8,25 @@ background {
 }
 
 h2{
-    font-size: 60px;
+    font-size: 80px;
     float:left;
     font-family: Palatino Linotype;
     color:white;
     text-shadow: 4px 4px #000000;
     transition: transform 2s;
-   
+    
 }
 
 p{
     border-style: groove;
     border-color:#d580ff;
     border-width: thick;
-    display: inline;
+    display:inline;
+
     
 }
 
-#pointless {
-    margin-top:150px;
-    position:absolute;  
-}
+
 
 #circle {
     background-color:#66a3ff;
