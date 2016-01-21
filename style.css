@@ -1,10 +1,7 @@
 body {
-    background: linear-gradient(to right, rgba(76, 0, 153,.5), rgba(102, 178, 255,.5)), url("clouds.png");
-    background-size:cover;
+    background: linear-gradient(to right, rgba(76, 0, 153,.5), rgba(102, 178, 255,.5)), url("clouds.png"); /*creates gradient purple to blue over the background image of clouds */
+    background-size:cover; 
     
-}
-background {
-    height:100%;
 }
 
 h2{
@@ -133,7 +130,7 @@ p{
 
 
 h2:hover{
-    transform: rotate(180deg);
+    transformrotate(180deg);
 }
 
 
